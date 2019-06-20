@@ -1,1 +1,60 @@
-Here is change conntent in document
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ ls
+'Test idea.txt'
+---> Dùng để xem thư mục 'sonpham'
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/phams/OneDrive/Documents/GitHub/sonpham/.git/
+--> Khởi tạo các lệnh để chạy git trong thư mục 'sonpham'
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git add 'Test idea.txt'
+
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git commit -m "Here is myy test"
+[master (root-commit) 445ebc0] Here is myy test
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test idea.txt
+
+
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 227.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/phamson9861/sonpham.git
+ * [new branch]      master -> master
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Test idea.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+phams@DESKTOP-GB1UV21 MINGW64 ~/OneDrive/Documents/github/sonpham (master)
+$ git commit -m "upload 2" "Test idea.txt"
+
